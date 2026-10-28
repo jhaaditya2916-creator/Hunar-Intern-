@@ -1,0 +1,7 @@
+Issue,Action Taken
+Missing values,"Filled missing values using mode, median, or Not provided"
+Invalid GPA entries,Converted GPA to numeric and filled invalid values with median
+Inconsistent text formatting,Removed extra spaces and standardized text capitalization
+Invalid weight entries,Converted weight values to numeric and handled invalid entries
+Missing type_sports value,Replaced missing value with Not provided
+Spelling and punctuation errors,Corrected Fotball to Football and None. to None

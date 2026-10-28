@@ -1,0 +1,45 @@
+DATA QUALITY REPORT
+
+Project: Food Choices Dataset — Data Cleaning
+
+Tool Used: Python, Pandas, Jupyter Notebook
+
+Dataset Overview:
+- Total records: 125
+- Total columns: 61
+- Missing values after cleaning: 0
+- Duplicate rows after cleaning: 0
+
+Objective:
+To clean the dataset, handle missing and invalid values, standardize inconsistent text entries, and validate the resulting data.
+
+
+
+
+## Data Cleaning Methods
+
+1. **Missing Values:** Missing values were handled using mode, median, or the label "Not provided", depending on the column.
+2. **Invalid Values:** Invalid GPA entries were converted to numeric values, with resulting missing values filled using the median.
+3. **Weight Standardization:** Text-based weight entries were converted to numeric values, and missing or invalid entries were handled.
+4. **Text Standardization:** Leading and trailing spaces were removed from text columns.
+5. **Inconsistent Text:** Capitalization was standardized in the `type_sports` column.
+6. **Spelling and Punctuation:** The entries "Fotball" and "None." were corrected to "Football" and "None".
+7. **Duplicate Check:** The dataset was checked for duplicate rows.
+
+
+## Validation Results
+
+| Metric | Result |
+|---|---:|
+| Total rows | 125 |
+| Total columns | 61 |
+| Missing values | 0 |
+| Duplicate rows | 0 |
+| Text columns | 12 |
+| Numeric columns | 49 |
+
+## Conclusion
+
+The dataset was cleaned and validated successfully. Missing values and duplicate rows were checked, text inconsistencies were addressed, and the cleaned dataset was saved as a CSV file. The change log and quality summary files were also created to document the process.
+
+
